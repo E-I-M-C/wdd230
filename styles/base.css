@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
+    font-weight: 400;
 }
 
 header {
     padding: 1rem;
     background-color: rgb(70, 70, 70);
     color: #fff;
-    font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,9 @@ header span {
     display: inline;
     margin-right: auto;
     margin-left: 1rem;
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 nav {
@@ -69,6 +71,8 @@ main {
 }
 
 main h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: larger;
     text-align: center;
 }
@@ -86,6 +90,7 @@ main h1 {
     margin: auto;
     padding: 10px;
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
 .card ul {
