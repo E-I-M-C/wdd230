@@ -28,4 +28,12 @@
     .card {
         box-shadow: 0 0 15px 1px black;
     }
+
+    .card li {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 1.2rem;
+    }
 }
