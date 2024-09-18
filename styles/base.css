@@ -1,0 +1,128 @@
+:root {
+    --background-color-1: rgb(70, 70, 70);
+    --title-font: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    padding: 1rem;
+    background-color: var(--background-color-1);
+    color: #fff;
+    font-family: var(--title-font);
+}
+
+header span {
+    display: flex;
+    max-width: 300px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 2px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: overline double;
+    background-color: gray;
+    border: 1px solid white;
+}
+
+.active::before {
+    content: "<<";
+}
+
+.active::after {
+    content: ">>";
+}
+
+main {
+    display: grid;
+    margin: 1.5rem auto;
+    max-width: 95%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card {
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card h2 {
+    text-align: center;
+    background-color: var(--background-color-1);
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-family: var(--title-font);
+}
+
+.card ul {
+    margin: 1.5rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.card li {
+    margin-top: 0.5rem;
+}
+
+.card p {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--background-color-1);
+    padding: 20px;
+}
+
+footer p {
+    margin: auto;
+    text-align: center;
+}
+
+footer p:first-of-type {
+    font-size: 1.3rem;
+    color: white;
+}
+
+footer img {
+    vertical-align: middle;
+    padding-left: 1rem;
+    border-radius: 2px;
+}
+
+#lastModified {
+    color: aquamarine;
+    font-size: 1rem;
+    margin-top: 5px;
+}
