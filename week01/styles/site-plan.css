@@ -1,20 +1,17 @@
-:root {
-    --primary-color: #4e2d72;
-    --secondary-color: #feb065;
-}
-
 * {
     margin: 0;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Gowun Batang", system-ui;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
 }
 
 header {
     padding: 0.5rem;
-    background-color: var(--primary-color);
+    background-color: #4e2d72;
 }
 
 header>h1 {
@@ -27,8 +24,8 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Roboto Mono", monospace;
-    color: var(--primary-color);
+    font-family: "Noto Sans", sans-serif;
+    color: #4e2d72;
 }
 
 main {
@@ -45,7 +42,7 @@ h3 {
 }
 
 .background {
-    background-color: var(--secondary-color);
+    background-color: #feb065;
     padding: 1.5rem;
     margin: auto;
     margin-top: 1rem;
@@ -62,7 +59,7 @@ ul {
 
 li {
     text-align: left;
-    color: var(--primary-color);
+    color: #4e2d72;
 }
 
 .colors {
@@ -77,28 +74,28 @@ li {
 }
 
 .primary {
-    background-color: var(--primary-color);
+    background-color: #4e2d72;
 }
 
 .secondary {
-    background-color: var(--secondary-color);
+    background-color: #feb065;
 }
 
 hr {
     border: none;
-    border-top: 1px solid var(--primary-color);
+    border-top: 1px solid #4e2d72;
     margin: auto;
     margin-top: 1rem;
 }
 
 p.colored {
-    background-color: var(--secondary-color);
+    background-color: #feb065;
     color: var(--primary-color);
     padding: 1rem;
 }
 
 nav {
-    background-color: var(--primary-color);
+    background-color: #4e2d72;
     line-height: 3rem;
     text-align: center;
     font-size: 1.2rem;
@@ -109,6 +106,7 @@ nav {
 nav a {
     padding: 1rem;
     min-width: 120px;
+    font-family: "Noto Sans", sans-serif;
     text-decoration: none;
     padding: 10px;
     color: white;
@@ -119,12 +117,12 @@ nav a:hover {
 }
 
 .active {
-    color: var(--secondary-color);
+    color: #feb065;
 }
 
 img {
     display: block;
-    border: 1px solid var(--primary-color);
+    border: 1px solid #4e2d72;
     width: 100%;
     height: auto;
 }
@@ -132,6 +130,6 @@ img {
 footer {
     margin-top: 1rem;
     padding: 1.5rem;
-    background-color: var(--primary-color);
+    background-color: #4e2d72;
     color: white;
 }
