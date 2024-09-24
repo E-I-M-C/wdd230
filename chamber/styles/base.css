@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    padding: 0.5rem;
+    background-color: #feb065;
+    align-items: center;
+    justify-content: center;
+}
+
+header span {
+    display: block;
+}
+
+.navigation {
+    background-color: #4e2d72;
+}
+
+.navigation a {
+    display: none;
+    padding: 2rem 0;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.navigation a:hover {
+    text-decoration: overline wavy;
+}
+
+.navigation.open a {
+    display: block;
+}
+
+.navigation a.active {
+    color: #feb065;
+}
+
+#menu {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    appearance: none;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}

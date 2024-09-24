@@ -1,0 +1,13 @@
+@media (min-width: 640px) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation a {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+}
