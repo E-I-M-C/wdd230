@@ -11,6 +11,15 @@
         display: none;
     }
 
+    .spotlight-grid {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .spotlight-grid h2 {
+        grid-column: span 3;
+    }
+
     .student-info {
         display: flex;
         justify-content: space-evenly;
