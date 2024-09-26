@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 653px) {
     .navigation {
         display: flex;
     }
@@ -9,5 +9,14 @@
 
     #menu {
         display: none;
+    }
+
+    .student-info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .student-info p.breaker {
+        display: inline;
     }
 }

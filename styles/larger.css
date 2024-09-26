@@ -11,6 +11,14 @@
         flex: 1 1 100%;
     }
 
+    nav a {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
     main {
         grid-template-columns: 2fr 1fr;
     }
@@ -26,7 +34,7 @@
     }
 
     .card {
-        box-shadow: 0 0 15px 1px black;
+        box-shadow: 0 0 10px 1px #666;
     }
 
     .card li {

@@ -1,3 +1,14 @@
+body {
+    font-family: "Gowun Batang", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2 {
+    font-family: "Noto Sans", sans-serif;
+}
+
 header {
     display: flex;
     padding: 0.5rem;
@@ -6,8 +17,15 @@ header {
     justify-content: center;
 }
 
-header span {
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #4e2d72;
+}
+
+header h1 span {
     display: block;
+    font-size: 1.2rem;
 }
 
 .navigation {
@@ -18,6 +36,7 @@ header span {
     display: none;
     padding: 2rem 0;
     min-width: 150px;
+    font-family: "Noto Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     font-size: 1.4rem;
@@ -39,6 +58,7 @@ header span {
 #menu {
     padding: 1rem;
     font-size: 1.5rem;
+    font-family: monospace;
     border: 0;
     background: none;
     color: #fff;
@@ -50,5 +70,65 @@ header span {
 }
 
 #menu.open::before {
+    margin-left: 0.25rem;
     content: "X";
+}
+
+#hero-img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #4e2d72;
+    padding: 20px;
+}
+
+.contact {
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.chamber-location {
+    display: grid;
+    grid-template-columns: auto 270px;
+    align-items: center;
+}
+
+.chamber-location p:first-of-type {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.chamber-location span {
+    display: block;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #feb065;
+}
+
+.student-info {
+    text-align: center;
+    color: #feb065;
+}
+
+.student-info p.breaker {
+    display: none;
+}
+
+.student-info .name {
+    font-weight: bold;
 }
