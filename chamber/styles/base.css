@@ -112,14 +112,17 @@ header h1 span {
 }
 
 main {
+    display: grid;
     margin: auto;
-    max-width: 1100px;
+    max-width: 1150px;
     text-align: center;
 }
 
 main section {
     margin: 1rem auto;
     padding: 1rem;
+    width: 90%;
+    height: auto;
     border: 1px solid #4e2d72;
     background-color: #feb065;
 }
@@ -135,12 +138,95 @@ main section {
     border-top: #000;
 }
 
-.spotlight-grid {
-    display: grid;
+.weather div {
+    text-align: center;
 }
 
-.spotlight-grid a {
+.weather div span {
+    display: inline-block;
+    text-align: left;
+}
+
+.weather div span:first-of-type {
+    text-align: right;
+}
+
+.weather p {
+    margin: auto;
+}
+
+.emoji-large {
+    font-size: 2rem;
+}
+
+.spotlight a {
     display: block;
+}
+
+.calendar {
+    margin: auto;
+    width: 300px;
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar-header {
+    padding: 20px;
+    color: #fff;
+    background-color: #4e2d72;
+    box-sizing: border-box;
+
+    h2 {
+        margin: 0;
+    }
+
+    h3 {
+        margin: 0;
+        font-weight: 500;
+    }
+}
+
+.calendar-date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.calendar-day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #262626;
+
+    &:nth-child(1) {
+        color: #c20037;
+    }
+}
+
+.calendar-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
+}
+
+.calendar-number:nth-child(7n-6) {
+    color: #c20037;
+    font-weight: 700;
+}
+
+.calendar-current,
+.calendar-number:hover {
+    background-color: #4e2d72;
+    color: #fff !important;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 footer {

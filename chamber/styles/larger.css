@@ -11,13 +11,33 @@
         display: none;
     }
 
-    .spotlight-grid {
+    #grid-three {
         grid-template-columns: repeat(3, 1fr);
-        align-items: center;
     }
 
-    .spotlight-grid h2 {
+    #hero {
         grid-column: span 3;
+    }
+
+    .card-grid {
+        grid-column: span 3;
+    }
+
+    .weather {
+        grid-column: span 3;
+    }
+
+    #spotlight-title {
+        grid-column: span 3;
+    }
+
+    #grid-two {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .images {
+        grid-column: 2/3;
+        grid-row: 1/4;
     }
 
     .student-info {
