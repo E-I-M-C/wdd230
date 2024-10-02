@@ -32,12 +32,14 @@
     }
 
     #grid-two {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: 350px auto;
+        column-gap: 1rem;
+        text-align: left;
     }
 
     .images {
         grid-column: 2/3;
-        grid-row: 1/4;
+        grid-row: 1/5;
     }
 
     .student-info {
