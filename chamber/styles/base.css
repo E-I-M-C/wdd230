@@ -120,6 +120,11 @@ main {
     text-align: center;
 }
 
+#last-visited {
+    text-align: center;
+    color: #4e2d72;
+}
+
 .home {
     padding-top: 0;
 }
@@ -182,6 +187,7 @@ main {
     margin-bottom: 1rem;
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 .images img:first-of-type {

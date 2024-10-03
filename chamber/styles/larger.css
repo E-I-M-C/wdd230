@@ -37,9 +37,17 @@
         text-align: left;
     }
 
+    #last-visited {
+        grid-column: span 2;
+    }
+
     .images {
         grid-column: 2/3;
-        grid-row: 1/5;
+        grid-row: 2/6;
+    }
+
+    .images img:hover {
+        box-shadow: 0 0 10px 1px #4e2d72;
     }
 
     .student-info {

@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ensenada Chamber of Commerce</title>
-    <meta name="description" content="Eric Martinez - WDD 230 - Web Frontend Development - Chamber of Commerce.">
+    <title>Ensenada Chamber of Commerce | Discover</title>
+    <meta name="description"
+        content="Eric Martinez - WDD 230 - Web Frontend Development - Chamber of Commerce Discover.">
     <meta name="author" content="Eric Martinez">
     <link rel="icon" href="tropical-logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,15 +17,15 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <meta property="og:title" content="Eric Martinez - WDD 230 - Web Frontend Development course assignment portal.">
+    <meta property="og:title" content="Ensenada Chamber of Commerce - Discover">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://e-i-m-c.github.io/wdd230/preview.jpg">
-    <meta property="og:url" content="https://e-i-m-c.github.io/wdd230/chamber">
+    <meta property="og:url" content="https://e-i-m-c.github.io/wdd230/chamber/discover.html">
 </head>
 
 <body>
     <header>
-        <img src="images/tropical-logo-small.webp" alt="Tropical logo.">
+        <img src="images/tropical-logo-small.webp" alt="Tropical logo." width="94" height="118">
         <h1>Ensenada <span>Chamber of Commerce</span></h1>
     </header>
     <nav class="navigation">
@@ -35,14 +36,7 @@
         <a href="#">Join</a>
     </nav>
     <main id="grid-two">
-        <div class="images">
-            <img src="//via.placeholder.com/600x400/" alt="placeholder" loading="lazy" width="450" height="300">
-            <img src="//via.placeholder.com/600x400/" alt="placeholder" loading="lazy" width="450" height="300">
-            <img src="//via.placeholder.com/600x400/" alt="placeholder" loading="lazy" width="450" height="300">
-            <img src="//via.placeholder.com/600x400/" alt="placeholder" loading="lazy" width="450" height="300">
-            <img src="//via.placeholder.com/600x400/" alt="placeholder" loading="lazy" width="450" height="300">
-            <img src="//via.placeholder.com/600x400/" alt="placeholder" loading="lazy" width="450" height="300">
-        </div>
+        <h1 id="last-visited"></h1>
         <section class="sidebar card">
             <h2>Heading</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magni eveniet provident magnam.
@@ -50,7 +44,7 @@
         </section>
         <section class="sidebar card">
             <h2>Heading</h2>
-            <img src="//via.placeholder.com/250x150/" alt="placeholder" loading="lazy" width="250" height="150">
+            <img src="images/placeholder-small.webp" alt="placeholder" loading="lazy" width="250" height="150">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure magni eveniet provident magnam.
                 Exercitationem dignissimos nesciunt fuga dolorum ipsum!</p>
         </section>
@@ -102,11 +96,19 @@
                 <div class="calendar-number">30</div>
             </div>
         </div>
+        <div class="images">
+            <img src="images/placeholder.webp" alt="placeholder" loading="lazy" width="450" height="300">
+            <img src="images/placeholder-2.webp" alt="placeholder" loading="lazy" width="450" height="300">
+            <img src="images/placeholder-3.webp" alt="placeholder" loading="lazy" width="450" height="300">
+            <img src="images/placeholder-4.webp" alt="placeholder" loading="lazy" width="450" height="300">
+            <img src="images/placeholder-5.webp" alt="placeholder" loading="lazy" width="450" height="300">
+            <img src="images/placeholder-6.webp" alt="placeholder" loading="lazy" width="450" height="300">
+        </div>
     </main>
     <footer>
         <div class="contact">
             <div class="chamber-location">
-                <img src="images/tropical-logo.webp" alt="Tropical logo.">
+                <img src="images/tropical-logo.webp" alt="Tropical logo." loading="lazy" width="150" height="200">
                 <div>
                     <p>Ensenada <span>Chamber of Commerce</span></p>
                     <p>Lázaro Cárdenas 1392, Bahia Ensenada, 22800 Ensenada, B.C.</p>
@@ -131,6 +133,7 @@
     </footer>
     <script src="scripts/hamburger-menu.js"></script>
     <script src="scripts/get-dates.js"></script>
+    <script src="scripts/last-visited.js"></script>
 </body>
 
 </html>
