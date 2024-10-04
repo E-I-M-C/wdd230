@@ -121,6 +121,8 @@ main {
 }
 
 #last-visited {
+    margin: 0.5rem auto;
+    font-size: xx-large;
     text-align: center;
     color: #4e2d72;
 }
