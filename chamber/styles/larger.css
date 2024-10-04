@@ -46,7 +46,12 @@
         grid-row: 2/6;
     }
 
+    .images img {
+        animation: shadow-none 0.5s;
+    }
+
     .images img:hover {
+        animation: shadow 0.5s;
         box-shadow: 0 0 10px 1px #4e2d72;
     }
 
@@ -57,5 +62,25 @@
 
     .student-info p.breaker {
         display: inline;
+    }
+}
+
+@keyframes shadow {
+    0% {
+        box-shadow: none;
+    }
+
+    100% {
+        box-shadow: 0 0 10px 1px #4e2d72;
+    }
+}
+
+@keyframes shadow-none {
+    0% {
+        box-shadow: 0 0 10px 1px #4e2d72;
+    }
+
+    100% {
+        box-shadow: none;
     }
 }

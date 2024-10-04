@@ -177,23 +177,6 @@ main {
     display: block;
 }
 
-.images {
-    padding: 0 1rem;
-    background-color: #feb065;
-    border: 1px solid #4e2d72;
-}
-
-.images img {
-    margin-bottom: 1rem;
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.images img:first-of-type {
-    margin-top: 1rem;
-}
-
 .calendar {
     margin: auto;
     width: 350px;
@@ -258,6 +241,30 @@ main {
     color: #fff !important;
     font-weight: 700;
     cursor: pointer;
+}
+
+.images {
+    padding: 0 1rem;
+    background-color: #feb065;
+    border: 1px solid #4e2d72;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.images img:first-of-type {
+    margin-top: 1rem;
+}
+
+figcaption {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer {
