@@ -55,6 +55,18 @@
         box-shadow: 0 0 10px 1px #4e2d72;
     }
 
+    .contact-info {
+        align-items: center;
+    }
+
+    .contact-info p:first-of-type {
+        align-self: self-end;
+    }
+
+    .contact-info p:last-of-type {
+        align-self: self-start;
+    }
+
     .student-info {
         display: flex;
         justify-content: space-evenly;
