@@ -192,15 +192,15 @@ main {
     color: #fff;
     background-color: #4e2d72;
     box-sizing: border-box;
+}
 
-    h2 {
-        margin: 0;
-    }
+.calendar-header h2 {
+    margin: 0;
+}
 
-    h3 {
-        margin: 0;
-        font-weight: 500;
-    }
+.calendar-header h3 {
+    margin: 0;
+    font-weight: 500;
 }
 
 .calendar-date {
@@ -218,10 +218,10 @@ main {
     height: 25px;
     font-weight: 600;
     color: #262626;
+}
 
-    &:nth-child(1) {
-        color: #c20037;
-    }
+.calendar-day:nth-child(1) {
+    color: #c20037;
 }
 
 .calendar-number {
