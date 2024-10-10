@@ -1,11 +1,19 @@
-fieldset {
-    margin: 1rem;
-    width: 90%;
-    max-width: 500px;
-    border: 1px solid blue;
+:root {
+    --border-color: 1px solid #444;
 }
 
-form label {
+form {
+    margin-top: 1rem;
+}
+
+fieldset {
+    margin: auto;
+    max-width: 500px;
+    border: var(--border-color);
+    border-radius: 5px;
+}
+
+form label:not(:first-child) {
     display: block;
     padding-top: 1rem;
 }
@@ -18,7 +26,7 @@ form input[type=text],
 form input[type=password],
 form input[type=email] {
     padding: 0.75rem;
-    width: 80%;
+    width: 92%;
     max-width: 375px;
     border-radius: 6px;
 }
@@ -40,7 +48,7 @@ form input[type=submit] {
     padding: 0.75rem;
     width: 100%;
     max-width: 400px;
-    border: 1px solid #444;
+    border: var(--border-grey);
     border-radius: 6px;
 }
 
@@ -51,9 +59,5 @@ form input[type=submit] {
 
     form {
         grid-column: span 2;
-    }
-
-    fieldset {
-        width: 100%;
     }
 }

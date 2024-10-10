@@ -1,3 +1,9 @@
+:root {
+    --color-grey: #444;
+    --border-color: 1px solid #444;
+    --title-font: font-family: "Roboto", sans-serif;
+}
+
 body {
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
@@ -6,7 +12,7 @@ body {
 
 header {
     padding: 1rem;
-    background-color: #444;
+    background-color: var(--color-grey);
     color: #fff;
     display: flex;
     align-items: center;
@@ -32,7 +38,7 @@ header span {
     display: inline;
     margin-right: auto;
     margin-left: 1rem;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--title-font);
     font-size: 2rem;
     font-weight: 500;
 }
@@ -129,7 +135,7 @@ main {
     padding: .25rem;
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--title-font);
     color: #000;
 }
 
@@ -139,7 +145,7 @@ main {
 
 .title h1 {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--title-font);
     font-weight: 500;
     font-size: larger;
     text-align: center;
@@ -149,24 +155,24 @@ hr {
     margin: 0;
     width: 100%;
     border: none;
-    border-top: 1px solid #000;
+    border-top: var(--border-color);
 }
 
 .card {
     margin: 0 1rem;
     height: 100%;
-    border: 1px solid #444;
+    border: var(--border-color);
     border-radius: 5px;
     overflow: hidden;
 }
 
 .card h2 {
     text-align: center;
-    background-color: #444;
+    background-color: var(--color-grey);
     color: #fff;
     margin: auto;
     padding: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--title-font);
     font-weight: 500;
 }
 
@@ -192,7 +198,7 @@ iframe {
 }
 
 footer {
-    background-color: #444;
+    background-color: var(--color-grey);
     padding: 20px;
 }
 

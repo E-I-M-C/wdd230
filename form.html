@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Martinez - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="Eric Martinez - WDD 230 - Web Frontend Development course assignment portal.">
+    <title>Eric Martinez - WDD 230 - Web Frontend Development | Form</title>
+    <meta name="description" content="Eric Martinez - WDD 230 - Web Frontend Development form.">
     <meta name="author" content="Eric Martinez">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,10 +44,10 @@
                 <label>Username*: <input type="text" id="user" name="user" required></label>
                 <label>Password*: <input type="password" id="pass" name="pass" required></label>
                 <label>Confirm Password*: <input type="password" id="con-pass" name="con-pass" required></label>
-                <label>Email*: <input type="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <label>Email*: <input type="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" required></label>
                 <label>Page Rating: <span id="rate-num">5</span> <input type="range" id="rate" name="rate" min="1"
                         max="10" step="1" value="5"></label>
-                <input type="submit">
+                <input type="submit" value="Submit Rating">
             </fieldset>
         </form>
     </main>
