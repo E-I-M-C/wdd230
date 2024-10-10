@@ -1,6 +1,6 @@
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
-const hr = document.querySelector("hr");
+const hr = document.querySelector("hr") || document.createElement("hr");
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("🕶️")) {
@@ -12,6 +12,6 @@ modeButton.addEventListener("click", () => {
         main.style.background = "#fff";
         main.style.color = "#000";
         modeButton.textContent = "🕶️";
-        hr.style.borderTop = "1px solid #000";
+        hr.style.borderTop = "1px solid #444";
     }
 });
