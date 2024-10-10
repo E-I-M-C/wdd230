@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric Martinez - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Eric Martinez - WDD 230 - Web Frontend Development course assignment portal.">
+    <meta name="author" content="Eric Martinez">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Eric Martinez - WDD 230 - Web Frontend Development course assignment portal.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://e-i-m-c.github.io/wdd230/thumbnail.jpg">
+    <meta property="og:url" content="https://e-i-m-c.github.io/wdd230/">
+</head>
+
+<body>
+    <header>
+        <div id="mode">🕶️</div>
+        <img src="images/profile-small.webp" alt="Photo of Eric Martinez.">
+        <span>Eric Martinez</span>
+    </header>
+    <nav>
+        <button id="menu" title="Menu"></button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#" class="active">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html">
+            <fieldset>
+                <label>Username*: <input type="text" id="user" name="user" required></label>
+                <label>Password*: <input type="password" id="pass" name="pass" required></label>
+                <label>Confirm Password*: <input type="password" id="con-pass" name="con-pass" required></label>
+                <label>Email*: <input type="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <label>Page Rating: <span id="rate-num">5</span> <input type="range" id="rate" name="rate" min="1"
+                        max="10" step="1" value="5"></label>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 💻 Eric Martinez 💻 Mexico <img src="images/mexico-flag.webp"
+                alt="Mexican Flag."></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/dark-mode.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

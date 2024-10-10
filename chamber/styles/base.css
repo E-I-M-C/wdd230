@@ -269,6 +269,66 @@ figcaption {
     font-style: normal;
 }
 
+#no-grid {
+    display: block;
+}
+
+.ccf {
+    margin: auto;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    max-width: 500px;
+    background-color: #feb065;
+    border: 1px solid #4e2d72;
+}
+
+.ccf label {
+    display: block;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.ccf input[type="text"],
+.ccf input[type="tel"],
+.ccf input[type="email"],
+.ccf select {
+    display: block;
+    padding: 0.75rem;
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid #4e2d72;
+    border-radius: 5px;
+}
+
+.ccf input:required {
+    border: 1px solid #f00;
+}
+
+.ccf input:required:valid {
+    border: 1px solid #008000;
+}
+
+.ccf textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 100px;
+}
+
+.ccf input[type=submit] {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #4e2d72;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+    color: #4e2d72;
+}
+
 footer {
     background-color: #4e2d72;
     padding: 20px;

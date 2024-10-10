@@ -1,0 +1,59 @@
+fieldset {
+    margin: 1rem;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid blue;
+}
+
+form label {
+    display: block;
+    padding-top: 1rem;
+}
+
+form input {
+    display: block;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=email] {
+    padding: 0.75rem;
+    width: 80%;
+    max-width: 375px;
+    border-radius: 6px;
+}
+
+form input:required {
+    border: solid 2px red;
+}
+
+form input:required:valid {
+    border: solid 2px green;
+}
+
+form input[type=range] {
+    width: 100%;
+    max-width: 400px;
+}
+
+form input[type=submit] {
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 640px) {
+    main {
+        margin: auto 1rem;
+    }
+
+    form {
+        grid-column: span 2;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+}
