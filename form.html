@@ -42,9 +42,13 @@
         <form method="get" action="record.html">
             <fieldset>
                 <label>Username*: <input type="text" id="user" name="user" required></label>
-                <label>Password*: <input type="password" id="pass" name="pass" required></label>
-                <label>Confirm Password*: <input type="password" id="con-pass" name="con-pass" required></label>
-                <label>Email*: <input type="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" required></label>
+                <label>Password*: <input type="password" pattern="[A-Za-z0-9]{8}" id="pass" name="pass"
+                        required></label>
+                <label>Confirm Password*: <input type="password" pattern="[A-Za-z0-9]{8}" id="con-pass" name="con-pass"
+                        required></label>
+                <span id="message"></span>
+                <label>Email*: <input type="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" placeholder="someone@byui.edu"
+                        required></label>
                 <label>Page Rating: <span id="rate-num">5</span> <input type="range" id="rate" name="rate" min="1"
                         max="10" step="1" value="5"></label>
                 <input type="submit" value="Submit Rating">
