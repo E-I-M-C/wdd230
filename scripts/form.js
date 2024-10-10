@@ -14,6 +14,7 @@ const password = document.querySelector("#pass");
 const confirmPassword = document.querySelector("#con-pass");
 const message = document.querySelector("#message");
 
+password.addEventListener("keyup", clearMessage);
 confirmPassword.addEventListener("focusout", onChange);
 
 function onChange() {
@@ -21,6 +22,12 @@ function onChange() {
         message.textContent = "Not Matching";
         message.style.color = "red";
     } else {
+        message.textContent = "";
+    }
+}
+
+function clearMessage() {
+    if (password.value == "") {
         message.textContent = "";
     }
 }
