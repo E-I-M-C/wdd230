@@ -1,7 +1,7 @@
 :root {
     --color-grey: #444;
     --border-color: 1px solid #444;
-    --title-font: font-family: "Roboto", sans-serif;
+    --title-font: "Roboto", sans-serif;
 }
 
 body {
