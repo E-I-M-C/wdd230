@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ensenada Chamber of Commerce</title>
+    <title>Ensenada Chamber of Commerce | Join</title>
     <meta name="description" content="Eric Martinez - WDD 230 - Web Frontend Development - Chamber of Commerce Join.">
     <meta name="author" content="Eric Martinez">
     <link rel="icon" href="tropical-logo.ico">
@@ -37,27 +37,30 @@
     <main id="no-grid">
         <h2 class="title">Join The Chamber</h2>
         <form method="get" action="thankyou.html" class="ccf">
-            <label>First Name* <input type="text" name="fname" id="fname" required></label>
-            <label>Last Name* <input type="text" name="lname" id="lname" required></label>
-            <label>Title or Position <input type="text" name="ti-pos" id="ti-pos" pattern="[a-zA-Z_\S.{7,}]">
+            <label for="join">First Name* <input type="text" name="fname" id="fname" required></label>
+            <label for="join">Last Name* <input type="text" name="lname" id="lname" required></label>
+            <label for="join">Title or Position <input type="text" name="ti-pos" id="ti-pos" pattern="[a-zA-Z\-\s]{7,}">
             </label>
-            <label>Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
-            <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-            <label>Business/Organization's Name <input type="text" name="bus-org" id="bus-org"></label>
-            <label>Membership Level
-                <select name="subject">
-                    <option value="">Please Select &#9662;</option>
+            <label for="join">Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
+            <label for="join">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            <label for="join">Business/Organization's Name <input type="text" name="bus-org" id="bus-org"
+                    required></label>
+            <label for="join">Membership Level
+                <select name="membership" id="membership">
+                    <option value="" disabled selected>Please Select</option>
                     <option value="np">NP Membership</option>
                     <option value="bronze">Bronze Membership</option>
-                    <option value="silver">Silver Membership</option>
+                    <option value="silver">Silver Membership</span></option>
                     <option value="gold">Gold Membership</option>
                 </select>
             </label>
-            <label>Business/Organization's Description
+            <div id="membership-benefit"></div>
+
+            <label for="join">Business/Organization's Description
                 <textarea name="description" id="description"></textarea>
             </label>
-            <input type="hidden" name="timestamp" id="timestamp">
-            <input type="submit" value="Join">
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+            <label for="join"><input type="submit" value="Join"></label>
         </form>
     </main>
     <footer>
@@ -88,6 +91,7 @@
     </footer>
     <script src="scripts/hamburger-menu.js"></script>
     <script src="scripts/get-dates.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 
 </html>
