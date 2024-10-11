@@ -37,14 +37,17 @@
     <main id="no-grid">
         <h2 class="title">Join The Chamber</h2>
         <form method="get" action="thankyou.html" class="ccf">
-            <label>First Name* <input type="text" name="fname" id="fname" required></label>
-            <label>Last Name* <input type="text" name="lname" id="lname" required></label>
-            <label>Title or Position <input type="text" name="ti-pos" id="ti-pos" pattern="[a-zA-Z\-\s]{7,}">
+            <label for="fname">First Name* <input type="text" name="fname" id="fname" required></label>
+            <label for="lname">Last Name* <input type="text" name="lname" id="lname" required></label>
+            <label for="ti-pos">Title or Position <input type="text" name="ti-pos" id="ti-pos"
+                    pattern="[a-zA-Z\-\s]{7,}">
             </label>
-            <label>Email* <input type="email" name="email" placeholder="someone@mail.com" required></label>
-            <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-            <label>Business/Organization's Name <input type="text" name="bus-org" id="bus-org" required></label>
-            <label>Membership Level
+            <label for="email">Email* <input type="email" name="email" id="email" placeholder="someone@mail.com"
+                    required></label>
+            <label for="phone">Phone* <input type="tel" name="phone" id="phone" required></label>
+            <label for="bus-org">Business/Organization's Name <input type="text" name="bus-org" id="bus-org"
+                    required></label>
+            <label for="membership">Membership Level
                 <select name="membership" id="membership">
                     <option value="" disabled selected>Please Select</option>
                     <option value="np">NP Membership</option>
@@ -54,12 +57,11 @@
                 </select>
             </label>
             <div id="membership-benefit"></div>
-
-            <label>Business/Organization's Description
+            <label for="description">Business/Organization's Description
                 <textarea name="description" id="description"></textarea>
             </label>
             <input type="hidden" name="timestamp" id="timestamp" value="">
-            <label><input type="submit" value="Join"></label>
+            <label for="join"><input type="submit" value="Join" id="join"></label>
         </form>
     </main>
     <footer>
