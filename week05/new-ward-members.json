@@ -1,0 +1,23 @@
+{
+    "familyName": "Family Name",
+    "dateMoved": "12/12/2012",
+    "people": 3,
+    "bishopricVisited": true,
+    "members": [
+        {
+            "name": "Parent1",
+            "gender": "female",
+            "birthDate": "1/1/1982"
+        },
+        {
+            "name": "Parent2",
+            "gender": "male",
+            "birthDate": "4/4/1982"
+        },
+        {
+            "name": "Child1",
+            "gender": "male",
+            "birthDate": "6/6/2005"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 5px;
+}
+
+#cards section {
+    padding-bottom: 1rem;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+#cards img {
+    display: block;
+    margin: auto;
+}
