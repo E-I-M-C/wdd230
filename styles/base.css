@@ -191,6 +191,19 @@ hr {
     text-align: center;
 }
 
+#weather-icon {
+    margin: 0;
+    vertical-align: middle;
+}
+
+#weather-desc {
+    display: inline-block;
+}
+
+#weather-desc::first-letter {
+    text-transform: uppercase;
+}
+
 iframe {
     width: 100%;
     height: 400px;

@@ -72,6 +72,15 @@
         grid-row: 7/8;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    div.grid>div>p:first-child {
+        display: none;
+    }
+
     .contact-info {
         align-items: center;
     }

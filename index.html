@@ -54,31 +54,12 @@
         </div>
         <section class="card">
             <h2>Learning Activities</h2>
-            <ul>
-                <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media
-                        Query</a> | <a href="https://codepen.io/E-I-M-C/pen/RwzzMqK">JS Pen</a>
-                </li>
-                <li>Week 02: <a href="week02/design.html">Design</a> | <a
-                        href="https://codepen.io/E-I-M-C/pen/QWeWqJe">Responsive Menu</a> | <a
-                        href="week02/bom.html">DOM Manipulation</a>
-                </li>
-                <li>Week 03: <a href="week03/images/landscape.webp">WebP</a> | <a href="week03/lazyload.html">Lazy
-                        Loading</a> | <a href="week03/responsive-images.html">Responsive Images</a> | <a
-                        href="week03/bom.html">Web Storage API</a>
-                </li>
-                <li>Week 04: <a href="https://codepen.io/E-I-M-C/pen/bGXwpRG">CSS Pseudo-Classes</a> | <a
-                        href="week04/images/css-combinators.webp">CSS Combinators</a> | <a
-                        href="week04/tablebuild.html">HTML Tables</a> | <a href="Form-start/index.html">HTML Forms</a>
-                </li>
-                <li>Week 05: <a href="https://codepen.io/E-I-M-C/pen/JjgWrdd">CSS Pseudo-elements</a> | <a
-                        href="week05/new-ward-members.json">JSON</a> | <a href="week05/prophets.html">Fetch API</a> | <a
-                        href="week05/weather.html">Weather API</a></li>
-                <li>Week 06: <a href="#">#</a></li>
-            </ul>
+            <ul id="weeks"></ul>
         </section>
         <section class="card">
             <h2>Information</h2>
-            <p>⛅ 73°F - Partly cloudy</p>
+            <p><img id="weather-icon"> <span id="current-temp"></span> - <span id="weather-desc"></span>
+            </p>
             <p>Page Visits: <span id="visits"></span></p>
         </section>
         <iframe
@@ -95,6 +76,8 @@
     <script src="scripts/hamburger-menu.js"></script>
     <script src="scripts/dark-mode.js"></script>
     <script src="scripts/page-visits.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 
 </html>

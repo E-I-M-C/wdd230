@@ -1,0 +1,60 @@
+{
+    "companies": [
+        {
+            "name": "Idaho Websites",
+            "address": "2115 S Vista Avenue Boise ID 83705",
+            "phone": "(208) 342-9386",
+            "url": "https://idahowebsites.com/",
+            "icon": "idahowebsites",
+            "membership": "silver"
+        },
+        {
+            "name": "Surge Web Disign",
+            "address": "4072 E Arch Drive Merician ID 83646",
+            "phone": "(208) 631-0640",
+            "url": "https://surgewebdesign.com/",
+            "icon": "surge-web-design",
+            "membership": "gold"
+        },
+        {
+            "name": "Company Name",
+            "address": "Some place",
+            "phone": "(646) 646-6464",
+            "url": "site",
+            "icon": "icon",
+            "membership": "n/a"
+        },
+        {
+            "name": "Company Name",
+            "address": "Some place",
+            "phone": "(646) 646-6464",
+            "url": "site",
+            "icon": "icon",
+            "membership": "n/a"
+        },
+        {
+            "name": "Company Name",
+            "address": "Some place",
+            "phone": "(646) 646-6464",
+            "url": "site",
+            "icon": "icon",
+            "membership": "n/a"
+        },
+        {
+            "name": "Company Name",
+            "address": "Some place",
+            "phone": "(646) 646-6464",
+            "url": "site",
+            "icon": "icon",
+            "membership": "n/a"
+        },
+        {
+            "name": "Company Name",
+            "address": "Some place",
+            "phone": "(646) 646-6464",
+            "url": "site",
+            "icon": "icon",
+            "membership": "n/a"
+        }
+    ]
+}
