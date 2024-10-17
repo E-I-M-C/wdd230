@@ -17,36 +17,36 @@
             "membership": "gold"
         },
         {
-            "name": "Company Name",
-            "address": "Some place",
-            "phone": "(646) 646-6464",
-            "url": "site",
-            "icon": "icon",
-            "membership": "n/a"
+            "name": "Graphic Zen",
+            "address": "1788 E Summerplace Court Meridian ID 83646",
+            "phone": "(208) 631-4984",
+            "url": "https://graphiczen.com/",
+            "icon": "graphic-zen.webp",
+            "membership": "bronze"
         },
         {
-            "name": "Company Name",
-            "address": "Some place",
-            "phone": "(646) 646-6464",
-            "url": "site",
-            "icon": "icon",
-            "membership": "n/a"
+            "name": "Peppershock Media",
+            "address": "1215 3rd Street Nampa ID 83651",
+            "phone": "(208) 461-5070",
+            "url": "https://peppershock.com/",
+            "icon": "peppershock.webp",
+            "membership": "bronze"
         },
         {
-            "name": "Company Name",
-            "address": "Some place",
-            "phone": "(646) 646-6464",
-            "url": "site",
-            "icon": "icon",
-            "membership": "n/a"
+            "name": "Flash Tech Services",
+            "address": "Star Idaho 83669",
+            "phone": "(208) 488-5810",
+            "url": "https://flashtechnicalservices.com/",
+            "icon": "flash-tech.webp",
+            "membership": "gold"
         },
         {
-            "name": "Company Name",
-            "address": "Some place",
-            "phone": "(646) 646-6464",
-            "url": "site",
-            "icon": "icon",
-            "membership": "n/a"
+            "name": "Metro Express Car Wash",
+            "address": "1725 E Overland Road Meridian ID 83642",
+            "phone": "(208) 888-4073",
+            "url": "https://www.metroexpresscarwash.com/",
+            "icon": "metro-express.webp",
+            "membership": "silver"
         },
         {
             "name": "Company Name",
