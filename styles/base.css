@@ -191,16 +191,16 @@ hr {
     text-align: center;
 }
 
-#weather-icon {
+#weather img {
     margin: 0;
     vertical-align: middle;
 }
 
-#weather-desc {
+#weather span:nth-child(2) {
     display: inline-block;
 }
 
-#weather-desc::first-letter {
+#weather span:nth-child(2)::first-letter {
     text-transform: uppercase;
 }
 
