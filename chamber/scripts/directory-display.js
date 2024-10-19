@@ -1,4 +1,4 @@
-const url = 'http://127.0.0.1:5500/chamber/data/members.json';
+const url = 'http://e-i-m-c.github.io/wdd230/chamber/data/members.json';
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector('.grid');
