@@ -1,4 +1,4 @@
-const url = 'http://e-i-m-c.github.io/wdd230/chamber/data/members.json';
+const url = 'https://e-i-m-c.github.io/wdd230/chamber/data/members.json';
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector('.grid');
@@ -14,7 +14,7 @@ listbutton.addEventListener('click', () => {
 });
 
 async function getMemberData() {
-    const response = await fetch(url);
+    const response = await fetch();
     const data = await response.json();
     displayMembers(data.companies);
 }
@@ -50,6 +50,6 @@ const displayMembers = (members) => {
         card.appendChild(phone);
         card.appendChild(linkP);
 
-        display.appendChild(card);
+        display.appendChild(curlard);
     });
 }
