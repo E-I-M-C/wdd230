@@ -354,13 +354,74 @@ figcaption {
     border: 1px solid #4e2d72;
 }
 
+#grid-list {
+    max-width: 1040px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#grid,
+#list {
+    width: 70px;
+    padding: 0.5rem;
+    border: 1px solid #4e2d72;
+}
+
+#grid:hover,
+#list:hover {
+    background-color: #feb065;
+}
+
+.grid>div>p>a,
+.list>div>p>a {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
 .grid img {
     max-width: 200px;
     height: auto;
+    max-height: 110px;
+}
+
+.grid p {
+    margin: 0.5rem;
+}
+
+.grid div {
+    padding: 1rem;
+    box-shadow: 0 5px 5px 3px #999;
+    align-content: center;
+}
+
+.grid div p:first-of-type {
+    display: none;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
 
 .list div {
-    display: flex;
+    display: grid;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list div p {
+    margin: 0;
+    padding: 0.2rem;
+}
+
+.list div:nth-child(odd) {
+    background-color: #feb065;
 }
 
 .list img {

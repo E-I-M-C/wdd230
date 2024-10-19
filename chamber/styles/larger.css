@@ -73,12 +73,15 @@
     }
 
     .grid {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
     div.grid>div>p:first-child {
         display: none;
+    }
+
+    .list div {
+        grid-template-columns: 160px 1fr 160px 1fr;
     }
 
     .contact-info {

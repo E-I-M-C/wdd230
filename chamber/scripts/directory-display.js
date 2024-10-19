@@ -29,6 +29,7 @@ const displayMembers = (members) => {
         const address = document.createElement('p');
         const phone = document.createElement('p');
         const link = document.createElement('a');
+        const linkP = document.createElement('p');
 
         logo.setAttribute('src', `images/${member.icon}.webp`);
         logo.setAttribute('alt', `${member.name} logo`);
@@ -41,12 +42,13 @@ const displayMembers = (members) => {
 
         link.textContent = `${member.url}`;
         link.setAttribute('href', member.url);
+        linkP.appendChild(link);
 
         card.appendChild(logo);
         card.appendChild(name);
         card.appendChild(address);
         card.appendChild(phone);
-        card.appendChild(link);
+        card.appendChild(linkP);
 
         display.appendChild(card);
     });
