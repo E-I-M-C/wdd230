@@ -14,7 +14,7 @@ listbutton.addEventListener('click', () => {
 });
 
 async function getMemberData() {
-    const response = await fetch();
+    const response = await fetch(url);
     const data = await response.json();
     displayMembers(data.companies);
 }
@@ -50,6 +50,6 @@ const displayMembers = (members) => {
         card.appendChild(phone);
         card.appendChild(linkP);
 
-        display.appendChild(curlard);
+        display.appendChild(card);
     });
 }
