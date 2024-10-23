@@ -20,22 +20,24 @@ const displayMembers = (members) => {
             const section = document.createElement('section');
             const title = document.createElement('h2');
             const hr = document.createElement('hr');
-            const email = document.createElement('a');
-            const phone = document.createElement('a');
-            const website = document.createElement('a');
+            const email = document.createElement('p');
+            const phone = document.createElement('p');
+            const website = document.createElement('p');
+            const link = document.createElement('a');
 
             title.textContent = member.name;
 
-            email.textContent = 'email';
-            email.setAttribute('href', '#');
+            email.textContent = member.email;
             phone.textContent = member.phone;
-            phone.setAttribute('href', member.phone);
-            website.textContent = member.url;
-            website.setAttribute('href', member.url);
+            link.textContent = member.url;
+            link.setAttribute('href', member.url);
 
+            website.appendChild(link);
             section.appendChild(title);
             section.appendChild(hr);
-            section.appendChild(email);
+            if (email.textContent != '') {
+                section.appendChild(email);
+            }
             section.appendChild(phone);
             section.appendChild(website);
             section.classList.add('spotlight');

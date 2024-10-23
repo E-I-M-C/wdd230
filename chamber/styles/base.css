@@ -208,8 +208,15 @@ section hr {
     margin-top: 0;
 }
 
+.spotlight p {
+    margin: 0;
+    color: #4e2d72;
+    font-weight: bold;
+}
+
 .spotlight a {
-    display: block;
+    color: #4e2d72;
+    text-decoration: none;
 }
 
 .calendar {
