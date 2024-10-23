@@ -88,6 +88,8 @@ header h1 span {
 #hero-img {
     width: 100%;
     height: auto;
+    border: 1px solid #4e2d72;
+    border-top: none;
 }
 
 .button-box {
@@ -145,13 +147,17 @@ main {
 
 .card-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
-.event hr {
+section h2 {
+    margin-bottom: 0;
+}
+
+section hr {
+    margin-top: 2px;
     border: none;
-    border-top: #000;
+    border-top: 2px solid #4e2d72;
 }
 
 .weather div {
@@ -160,19 +166,46 @@ main {
 
 .weather div span {
     display: inline-block;
+    width: 150px;
     text-align: left;
+    font-size: 1.1rem;
 }
 
 .weather div span:first-of-type {
     text-align: right;
 }
 
-.weather p {
-    margin: auto;
+#weather {
+    margin-bottom: 0.5rem;
 }
 
-.emoji-large {
-    font-size: 2rem;
+#weather img {
+    display: inline-block;
+    margin: -0.8rem -0.3rem -1.3rem -0.5rem;
+    width: 70px;
+    height: auto;
+}
+
+#weather p {
+    display: block;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#spotlight {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.spotlight {
+    padding: 1rem;
+    background-color: #feb065;
+    border: 1px solid #4e2d72;
+}
+
+.spotlight h2 {
+    margin-top: 0;
 }
 
 .spotlight a {

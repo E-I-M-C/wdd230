@@ -6,6 +6,8 @@
             "phone": "(208) 342-9386",
             "url": "https://idahowebsites.com/",
             "icon": "idahowebsites",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "silver"
         },
         {
@@ -14,6 +16,8 @@
             "phone": "(208) 631-0640",
             "url": "https://surgewebdesign.com/",
             "icon": "surge-web-design",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "gold"
         },
         {
@@ -22,6 +26,8 @@
             "phone": "(208) 631-4984",
             "url": "https://graphiczen.com/",
             "icon": "graphic-zen",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "bronze"
         },
         {
@@ -30,6 +36,8 @@
             "phone": "(208) 461-5070",
             "url": "https://peppershock.com/",
             "icon": "peppershock",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "bronze"
         },
         {
@@ -38,6 +46,8 @@
             "phone": "(208) 488-5810",
             "url": "https://flashtechnicalservices.com/",
             "icon": "flash-tech",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "gold"
         },
         {
@@ -46,6 +56,8 @@
             "phone": "(208) 888-4073",
             "url": "https://www.metroexpresscarwash.com/",
             "icon": "metro-express",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "silver"
         },
         {
@@ -54,6 +66,8 @@
             "phone": "(646) 174-0349",
             "url": "https://www.holdmanstudios.com/",
             "icon": "holdman-studios",
+            "iconWidth": 0,
+            "iconHeight": 0,
             "membership": "gold"
         }
     ]
