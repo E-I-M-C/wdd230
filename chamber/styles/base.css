@@ -164,33 +164,57 @@ section hr {
     text-align: center;
 }
 
-.weather div span {
+.weather>div>span {
     display: inline-block;
     width: 150px;
     text-align: left;
     font-size: 1.1rem;
 }
 
-.weather div span:first-of-type {
+.weather>div>span:first-of-type {
     text-align: right;
 }
 
-#weather {
-    margin-bottom: 0.5rem;
-}
-
-#weather img {
+.weather div span img {
     display: inline-block;
     margin: -0.8rem -0.3rem -1.3rem -0.5rem;
     width: 70px;
     height: auto;
 }
 
-#weather p {
+.weather div span p {
     display: block;
     margin: 0;
     text-transform: capitalize;
     font-weight: bold;
+}
+
+#weather {
+    margin-bottom: 0.5rem;
+}
+
+.weather-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    max-width: 280px;
+}
+
+.weather-grid div {
+    padding: 0.5rem;
+    border: 1px solid #4e2d72;
+}
+
+.weather-grid h3 {
+    margin: 0;
+}
+
+.weather-grid img {
+    margin: auto;
+    margin-top: -0.5rem;
+    margin-bottom: -0.6rem;
 }
 
 #spotlight {
