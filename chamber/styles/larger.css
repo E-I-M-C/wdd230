@@ -7,7 +7,7 @@
         display: block;
     }
 
-    #menu {
+    .menu {
         display: none;
     }
 
@@ -15,8 +15,16 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .event a {
+        font-size: 1rem;
+    }
+
     #spotlight {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    #spotlight-title {
+        display: none;
     }
 
     .spotlight {
@@ -32,8 +40,8 @@
         border-right: 1px solid #4e2d72;
     }
 
-    #spotlight-title {
-        display: none;
+    .spotlight p {
+        font-size: 1rem;
     }
 
     #grid-two {
@@ -87,6 +95,15 @@
 
     .list div {
         grid-template-columns: 160px 1fr 160px 1fr;
+    }
+
+    .chamber-location {
+        margin-bottom: 0;
+        grid-template-columns: auto 270px;
+    }
+
+    .chamber-location div {
+        margin-top: 0;
     }
 
     .contact-info {

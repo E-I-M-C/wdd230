@@ -8,7 +8,6 @@ let daysBetween = lastVisited.getTime() - Date.now();
 if (daysBetween.toFixed(0) != 0) {
     daysBetween = daysBetween / msToDays;
 }
-console.log(daysBetween);
 // display the correct
 if (daysBetween < 1) {
     lastVisitedElement.textContent = "Back so soon! Awesome!";

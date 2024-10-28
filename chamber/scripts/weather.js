@@ -9,7 +9,6 @@ async function apiFetchWeather() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            //console.log(data);
             displayWeatherResults(data);
         } else {
             throw Error(await response.text());
@@ -24,7 +23,6 @@ async function apiFetchForecast() {
         const response = await fetch(urltwo);
         if (response.ok) {
             const data = await response.json();
-            //console.log(data);
             displayForecastResults(data);
         } else {
             throw Error(await response.text());
