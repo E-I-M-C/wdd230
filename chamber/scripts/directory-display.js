@@ -34,8 +34,8 @@ const displayMembers = (members) => {
         logo.setAttribute('src', `images/${member.icon}.webp`);
         logo.setAttribute('alt', `${member.name} logo`);
         logo.setAttribute('loading', 'lazy');
-        //logo.setAttribute('width', member.iconWidth);
-        //logo.setAttribute('height', member.iconHeight);
+        logo.setAttribute('width', member.iconWidth);
+        logo.setAttribute('height', member.iconHeight);
 
         name.textContent = `${member.name}`;
         address.textContent = `${member.address}`;

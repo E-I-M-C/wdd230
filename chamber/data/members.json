@@ -7,8 +7,8 @@
             "phone": "(208) 342-9386",
             "url": "https://idahowebsites.com/",
             "icon": "idahowebsites",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 765,
+            "iconHeight": 190,
             "membership": "silver"
         },
         {
@@ -18,8 +18,8 @@
             "phone": "(208) 631-0640",
             "url": "https://surgewebdesign.com/",
             "icon": "surge-web-design",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 217,
+            "iconHeight": 219,
             "membership": "gold"
         },
         {
@@ -29,8 +29,8 @@
             "phone": "(208) 631-4984",
             "url": "https://graphiczen.com/",
             "icon": "graphic-zen",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 786,
+            "iconHeight": 126,
             "membership": "bronze"
         },
         {
@@ -40,8 +40,8 @@
             "phone": "(208) 461-5070",
             "url": "https://peppershock.com/",
             "icon": "peppershock",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 754,
+            "iconHeight": 250,
             "membership": "bronze"
         },
         {
@@ -51,8 +51,8 @@
             "phone": "(208) 488-5810",
             "url": "https://flashtechnicalservices.com/",
             "icon": "flash-tech",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 768,
+            "iconHeight": 198,
             "membership": "gold"
         },
         {
@@ -62,8 +62,8 @@
             "phone": "(208) 888-4073",
             "url": "https://www.metroexpresscarwash.com/",
             "icon": "metro-express",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 500,
+            "iconHeight": 375,
             "membership": "silver"
         },
         {
@@ -73,8 +73,8 @@
             "phone": "(646) 174-0349",
             "url": "https://www.holdmanstudios.com/",
             "icon": "holdman-studios",
-            "iconWidth": 0,
-            "iconHeight": 0,
+            "iconWidth": 255,
+            "iconHeight": 255,
             "membership": "gold"
         }
     ]
